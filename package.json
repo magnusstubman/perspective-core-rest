@@ -1,0 +1,34 @@
+{
+  "name": "perspective-core-rest",
+  "version": "0.0.1",
+  "description": "",
+  "bugs": {
+    "url": "http://github.com/perspective/perspective-core-rest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/perspective/perspective-core-rest.git"
+  },
+  "contributors":[
+    "Hans Magnus Inderberg <hinderberg@gmail.com> (http://hinderberg.no/)",
+    "Mads Mobœk <> ()"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bin": {},
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "restify": "~2.6.0",
+    "underscore": "~1.4.4",
+    "perspective-core-server": "*",
+    "perspective-core": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "sinon": "*",
+    "sandboxed-module": "*"
+  }
+}
