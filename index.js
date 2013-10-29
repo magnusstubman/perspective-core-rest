@@ -6,4 +6,4 @@ module.exports = {
 	error: error,
 	createServer: createServer,
 	produceConfig: produceConfig
-}
+};
